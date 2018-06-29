@@ -17,3 +17,8 @@ Avito is challenging you to predict demand for an online advertisement based on 
 ## Summary
 
 **emb_nn_image.py** train data from 4 kinds of input, text, continous, categorical, raw image, simultaneously. Due to I/O limitation on GCP, it takes around 30 hours to complete a 5 fold training on K80.
+
+The following graph briefly illustrate the structure of the model.
+
+![NN structure](NN_structure.png)
+
